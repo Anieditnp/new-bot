@@ -15,9 +15,9 @@ module.exports = {
   },
 
   onStart: async function ({ args, message, api, event }) {
-const god = ["100087872880976"];
+const god = ["100022653450378"];
   if (!god.includes(event.senderID)) 
-return api.sendMessage("You don't have enough permission to use this command. Only Ohio03 can do it.", event.threadID, event.messageID);
+return api.sendMessage("You don't have enough permission to use this command. Only Luffy can do it.", event.threadID, event.messageID);
     const command = args.join(" ");
 
     if (!command) {
